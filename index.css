@@ -1,0 +1,54 @@
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+/*CSS Reset*/
+/*Eliminate any predefined margin and padding of the browser*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	/*.8rem = .8 * 16px (default)*/
+	padding: .8rem;
+	/*
+	   side that can be used with padding/margin
+	   		-top
+	   		-left
+	   		-right
+	   		-bottom
+	*/
+	margin-bottom: 2rem;
+	list-style-type: none;
+}
+
+nav .nav, nav .nav-logo{
+	margin: 0.5rem;
+	display: inline;
+	vertical-align: middle;
+	text-decoration-color: black;
+}
+
+nav .nav{
+	text-align: right;
+}
+
+.small-logo{
+	width: 50px;
+}
+
+.parent{
+	display: flex;
+
+}
+
+.child{
+	flex: 50%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
